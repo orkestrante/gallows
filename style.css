@@ -1,0 +1,73 @@
+body{
+    font-family: 'Baloo Bhaina', sans-serif;
+    text-align: center;
+    background: #EC6F66;
+    background: -webkit-linear-gradient(to right, #F3A183, #EC6F66); 
+    background: linear-gradient(to right, ##C71585, #EC6F66);
+}
+
+.word{
+    margin: 150px auto;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    margin-top: 30px;
+}
+button {
+    padding: 15px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: white;
+    color: #EC6F66;
+    font-weight: 600;
+    
+}
+.youLost {
+    font-size: 20px;
+    margin-top: 20px;
+}
+.youWon {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.word .letter{
+    height: 80px;
+    border-bottom: 4px solid #fff;
+    padding-bottom: 5px;
+    margin: 0px 4px;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 60px;
+    font-size: 85px;
+    color: #fff;
+}
+
+
+.progress{
+    width: 600px;
+    height: 50px;
+    border: 3px solid #fff;
+    border-radius: 4px;
+    margin: auto;
+    position: relative;
+}
+
+.bar{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 30%;
+    background-color: #fff;
+    transition: all 0.2s;
+}
+
+
+
+
+
+
+
